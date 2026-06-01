@@ -1,0 +1,153 @@
+ndex · CSS
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.contact-list-page {
+  width: 600px;
+  margin: 20px auto;
+}
+ 
+.add-btn-wrapper {
+  text-align: right;
+  margin-bottom: 15px;
+}
+ 
+.btn-add {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+ 
+.contact-list {
+  border: 1px solid #ccc;
+}
+ 
+.contact-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+ 
+.contact-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+ 
+.contact-info {
+  flex: 1;
+}
+ 
+.contact-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+ 
+.contact-detail {
+  font-size: 13px;
+  color: #555;
+  margin: 2px 0;
+}
+ 
+.contact-actions {
+  display: flex;
+  gap: 10px;
+}
+ 
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+ 
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+}
+ 
+.status-msg {
+  text-align: center;
+  color: #888;
+}
+ 
+.status-msg.error {
+  color: red;
+}
+ 
+/* form */
+.add-contact-page {
+  width: 500px;
+  margin: 30px auto;
+}
+ 
+.form-card {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 4px;
+}
+ 
+.form-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+ 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+ 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.form-group label {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+ 
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+ 
+.btn-save {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+ 
+.back-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+ 
+.back-link a {
+  color: #007bff;
+  cursor: pointer;
+}
+ 
+.form-error {
+  color: red;
+  font-size: 13px;
+}
+ 
